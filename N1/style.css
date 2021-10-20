@@ -1,0 +1,174 @@
+
+.container{
+    background-color: black;
+    padding:10px;
+}
+
+/*PRIMER FLEX CONTAINER*/
+
+.flex-container{
+    background-color: #2d4059;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-container div{
+    background-color: #ea5455;
+    margin: 10px;
+    padding: 10px;
+}
+
+.item1{
+    flex-grow: 1;
+}
+
+.item2{
+    flex-grow: 5;
+}
+
+.item3{
+    flex-grow: 1;
+}
+
+.item4{
+    flex-grow: 1;
+}
+
+/*Segundo Flex container*/
+
+.flex-container2{
+    background-color: #f07b3f;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-container2 div{
+    background-color: #fed460;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* SEGUNDO CONTENEDOR */
+
+.container2{
+    background-color: black;
+    padding:10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container2 div{
+    padding: 10px;
+    margin: 10px;
+}
+
+.flex-container3{
+    background-color: #4e4e6a;
+    padding: 10px;
+    flex-grow:2;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.flex-container4{
+    background-color: #f73f52;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.flex-container4 div {
+    background-color: #FEEA85;
+}
+
+.color3{
+    background-color: #1f6cb0;
+}
+
+.item5{
+    flex: 1;
+    flex-basis: 40%;
+}
+
+.item6{
+    flex: 1;
+    flex-basis: 40%;
+}
+
+.item7{
+    flex-grow: 1;
+    flex-basis: 40%;
+}
+
+.item8{
+    flex-grow: 1;
+    flex-basis: 40%;
+}
+
+.item9{
+    background-color:#70a3c4;
+    flex-basis: 100%;
+}
+
+/* TERCER CONTENEDOR */
+
+.container3{
+    background-color: black;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.container3 div{
+    padding: 10px;
+    background-color: #e6af2e;
+}
+
+/* MEDIA QUERIES*/
+
+@media (max-width: 768px){
+    .container2{
+        background: #feff03;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 600px){
+    .flex-container{
+        flex-direction: column;
+    }
+
+    .container2{
+        background-color: #fee228;
+    }
+    .flex-container3{
+        background-color: #09506f;
+        flex-direction: column;
+    }
+
+    .color3{
+        background-color: #61959C;
+    }
+
+    .item9{
+        background-color: #a3ddcb;
+    }
+
+    .flex-container4{
+        background-color: #fd7b54;
+    }
+
+    .flex-container4 div{
+        background-color: #fdb36b;
+    }
+
+    .container3 div{
+        background-color: #fdc764;
+    }
+}
